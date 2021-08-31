@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">halo dunia</string>
+    <string name="nama">Nama</string>
+    <string name="usia">Usia</string>
+    <string name="ulangi">Ulangi</string>
+    <string name="simpan">Simpan</string>
+    <string name="profil">Profil</string>
+    <string name="hitung">Hitung</string>
+    <string name="detail_activity">Detail Activity</string>
+    <string name="selesai">Selesai</string>
+</resources>
