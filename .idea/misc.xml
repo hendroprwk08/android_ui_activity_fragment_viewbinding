@@ -4,8 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/activity_detail.xml" value="0.209375" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/activity_fragment.xml" value="0.209375" />
         <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/activity_hitung.xml" value="0.33" />
         <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/activity_pesan.xml" value="0.209375" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/fragment_dua.xml" value="0.1953125" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/fragment_satu.xml" value="0.1953125" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/layout/fragment_tiga.xml" value="0.209375" />
+        <entry key="..\:/GitHub/android_activity_viewbinding/app/src/main/res/menu/menu_utama.xml" value="0.209375" />
         <entry key="..\:/Users/user/Documents/GitHub/halodunia/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Users/user/Documents/GitHub/halodunia/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/user/Documents/GitHub/halodunia/app/src/main/res/layout/activity_profile.xml" value="0.209375" />

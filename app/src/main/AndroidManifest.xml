@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Halodunia">
         <activity
+            android:name=".FragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PesanActivity"
+            android:exported="true" />
+        <activity
             android:name=".HitungActivity"
             android:exported="true" />
         <activity
