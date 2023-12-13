@@ -144,25 +144,6 @@ public class PesanActivity extends AppCompatActivity {
                             .show();
 
                 }
-//                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(PesanActivity.this, CHANNEL_ID )
-//                        .setSmallIcon(R.drawable.ic_refresh_white_24)
-//                        .setContentTitle( "Android!" )
-//                        .setContentText( "Anda sedang mempelajarinya    " );
-//
-//                NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context. NOTIFICATION_SERVICE ) ;
-//
-//                if (android.os.Build.VERSION. SDK_INT >= android.os.Build.VERSION_CODES. O ) {
-//                    int importance = NotificationManager. IMPORTANCE_HIGH ;
-//                    NotificationChannel notificationChannel = new
-//                            NotificationChannel( CHANNEL_NOTIF , "contoh channel" , importance) ;
-//                    notificationChannel.enableLights( true ) ;
-//                    notificationChannel.setLightColor(Color. RED ) ;
-//                    mBuilder.setChannelId( CHANNEL_NOTIF ) ;
-//                    assert mNotificationManager != null;
-//                    mNotificationManager.createNotificationChannel(notificationChannel) ;
-//                }
-//                assert mNotificationManager != null;
-//                mNotificationManager.notify(( int ) System. currentTimeMillis (), mBuilder.build()) ;
             }
         });
     }
