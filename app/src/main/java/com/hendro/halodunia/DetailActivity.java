@@ -1,12 +1,10 @@
 package com.hendro.halodunia;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-
+import androidx.appcompat.app.AppCompatActivity;
 import com.hendro.halodunia.databinding.ActivityDetailBinding;
+import java.util.Objects;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -24,7 +22,11 @@ public class DetailActivity extends AppCompatActivity {
         super.onStart();
         //tangkap nilai dari Intent
         Intent intent = getIntent();
-        binding.etNama.setText( intent.getStringExtra("NAMA") );
-        binding.etUsia.setText( intent.getStringExtra("USIA") );
+        binding.etNama.setText(intent.getStringExtra("NAMA"));
+        binding.etUsia.setText(intent.getStringExtra("USIA"));
+
+        setSupportActionBar(binding.topAppBar);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 }
